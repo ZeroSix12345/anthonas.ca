@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Anthonas Gaming</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">🎮 Anthonas Gaming</div>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="serveurs.html">Serveurs</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+<section class="contact-section">
+    <h1>📬 Contactez-nous</h1>
+    <p>Une question ? Une suggestion ? Remplissez le formulaire ci-dessous :</p>
+    <form action="https://formspree.io/f/xzzvjeej" method="POST" class="contact-form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="_replyto" required>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2025 Anthonas Gaming. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
