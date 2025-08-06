@@ -16,6 +16,21 @@ nav a:hover, nav a.active { color: #ff4747; }
 .btn { display: inline-block; padding: 10px 20px; background: #ff4747; color: #fff; border-radius: 5px; transition: background 0.3s; }
 .btn:hover { background: #e63e3e; }
 
+/* DISCORD BUTTON */
+.discord-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #5865F2; /* Couleur officielle Discord */
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.discord-btn:hover {
+    background: #4752C4;
+}
+
 /* NEWS */
 .news { padding: 50px 20px; text-align: center; }
 .news h2 { margin-bottom: 30px; color: #ff4747; }
